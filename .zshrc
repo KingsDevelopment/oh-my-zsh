@@ -1,3 +1,13 @@
+# IMPORTANT: use linking to create .zshrc in your HOME folder.
+# ln -s ~/.oh-my-zsh/custom/.zshrc
+
+
+
+
+
+
+
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
