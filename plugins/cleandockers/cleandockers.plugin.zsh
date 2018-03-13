@@ -1,5 +1,5 @@
 # Deletes all containers
-alias clean_containers='docker rm $(docker ps -aq)';
+alias clean_containers='docker rm $(docker ps -a -q)';
 
 # Deletes all images
 alias clean_images='docker rmi $(docker images -a)';
