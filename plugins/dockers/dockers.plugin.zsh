@@ -7,6 +7,7 @@ alias docker_bo='sb; cd BackOffice; docker-compose -f dockerfiles/Angular/backof
 alias docker_docs='sb; cd DevDocs; docker-compose -f dockerfiles/MkDocs/docker-compose.dev.yml up;'
 
 ## hero association
+alias hero_proxy='heroes; cd Saitama; docker-compose -f dockerfiles/Proxy/docker-compose.dev.yml up;'
 alias hero_association='sb; cd Hero-Association/Booter; python boot.py;'
 alias hero_saitama='sb; cd Hero-Association/Saitama; docker-compose -f dockerfiles/Loopback/Saitama/docker-compose.dev.yml up;'
 alias hero_genos='sb; cd Hero-Association/Genos; docker-compose -f dockerfiles/Loopback/Genos/docker-compose.dev.yml up;'
